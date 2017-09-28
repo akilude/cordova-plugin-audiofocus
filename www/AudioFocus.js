@@ -7,9 +7,9 @@ exports.requestFocus = function(success, error) {
 	exec(success, error, "AudioFocus", "requestFocus", []);
 };
 
-exports.releaseFocus = function(success, error) {
-	success = success || function() { };
-	error = error || function() { };
+// exports.releaseFocus = function(success, error) {
+// 	success = success || function() { };
+// 	error = error || function() { };
 
-	exec(success, error, "AudioFocus", "releaseFocus", []);
-};
+// 	exec(success, error, "AudioFocus", "releaseFocus", []);
+// };
